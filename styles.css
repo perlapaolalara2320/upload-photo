@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;  
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005227;
+    height: 40%;
+}
+.container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+
+}
+
+#document{
+    cursor: pointer;
+}
+#preview{
+    max-width: 800px;
+}
